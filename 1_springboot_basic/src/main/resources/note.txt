@@ -1,0 +1,9 @@
+Steps to create this SprintBoot application :-
+
+First create one maven project using "maven-archetype-quickstart".
+Create one source folder for resources "src/main/resources" and create application.properties file under it.
+In the pom.xml remove all the dependencies and add "spring-boot-starter" dependency.
+Create one main class containing Annotating with @SpringBootApplication
+Inside main method write the below code :-
+
+ApplicationContext context = SpringApplication.run("main_class_name.class", "main method arg");
